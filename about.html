@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/lnct-logo-footer-300x106-1.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the Central India's largest Institute</h1>     
+            <p>Born in semi urban city of Bilaspur (C.G.),Shri Jai Narain Chouksey, completed his post graduation from Robertson College, Jabalpur. He established Lakshmi Narain College of Technology (LNCT), Bhopal in 1994 under the banner of H.K. Kalchuri Education Trust. Since then, With the commitment of “Working Towards Being the Best”, LNCT Group has achieved many milestones. The institute is successfully meeting the objective of producing skilled manpower of the highest quality who is able to cope up with the challenges of ever evolving industrial needs of the country.The Alumni of LNCT Group are working all across the Globe in Big Multi National Companies.
+
+                Today, LNCT Group is one of the Largest and most preferred Educational Group for Engineering, Management, Pharmacy, Medical with ISO-9001 certification and NBA accreditation for many Engineering courses.. Bright young students from all across the country are coming to fulfill their dream in this group.
+                
+                The LNCT Campus at Bhopal is spread over a lush green environment of approx. 50 acres. The campus constitutes of many buildings that houses the academics and research centers. In addition to this, the academic building has tutorial rooms, lecture halls, computer and electronics labs and offices of the administrations and faculty. The campus is fully equipped with facilities like Wi-Fi,central library (digital library, Internet lab), digital classrooms, hostel, mess,Central workshop, Auditorium Sports Ground etc.</p>
+            <a href="https://lnct.ac.in/" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/1-web.png">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>To be a premier institute where engineering education and research converge to produce engineers as responsible citizens.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
